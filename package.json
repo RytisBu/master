@@ -1,0 +1,28 @@
+{
+  "name": "codeacademy",
+  "version": "1.0.0",
+  "main": " ",
+  "dependencies": {
+    "bootstrap": "~5.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.39",
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx mix",
+    "server:start": "node resources/js/index.js",
+    "start": "nodemon resources/js/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
